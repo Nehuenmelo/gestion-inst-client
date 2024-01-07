@@ -1,7 +1,5 @@
-export class Mark{
-  constructor(
-  public date: Date,
-  public mark: Number,
-	public subject: String
-  ){}
+export interface Mark {
+  date: string;
+  score: number;
+  subject: string;
 }

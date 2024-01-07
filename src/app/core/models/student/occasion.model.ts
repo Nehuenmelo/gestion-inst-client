@@ -1,8 +1,6 @@
-export class Occasion{
-  constructor(
-  public date: Date,
-  public title: String,
-	public description: String,
-	public subjects: Array<String>
-  ){}
+export interface Occasion {
+  date: string;
+  title: string;
+  description: string;
+  subjects: string[];
 }

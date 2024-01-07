@@ -1,0 +1,51 @@
+{
+	"category": "student",
+	"name": "Felix Melo",
+	"dateOfBirth": "1971-09-13",
+	"subjects": ["Saxo", "Estudio Biblico", "Armonias"],
+	"payments": [
+		{
+			"payDate": "2023-10-08",
+			"monthPayed": "2023-10-01",
+			"amount": 100,
+			"type": "cuota",
+			"comment": ""
+		}
+	],
+	"marks": [
+		{
+			"subject": "Saxo",
+			"score": 9,
+			"date": "2023-01-02"
+		},
+		{
+			"subject": "Estudio Biblico",
+			"score": 8.5,
+			"date": "2023-01-10"
+		}
+	],
+	"attendance": [
+		{
+			"date": "2023-01-01",
+			"attended": true
+		},
+		{
+			"date": "2023-01-02",
+			"attended": true
+		}
+	],
+	"events": [
+		{
+			"title": "School Assembly",
+			"date": "2023-01-10",
+			"description": "dadaddasdasdadadadasda",
+			"subjects": ["Saxo", "Armonias"]
+		},
+		{
+			"title": "Parent-Teacher Meeting",
+			"date": "2023-02-15",
+			"description": "dadaddasdasdadadadasda",
+			"subjects": ["Estudio Biblico"]
+		}
+	]
+}

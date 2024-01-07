@@ -1,9 +1,7 @@
-export class Payment{
-  constructor(
-  public amount: Number,
-  public payDate: Date,
-	public monthPayed: Date,
-	public type: String,
-	public comment: string
-  ){}
+export interface Payment {
+  amount: number;
+  payDate: string;
+  monthPayed: string;
+  type: string;
+  comment: string;
 }

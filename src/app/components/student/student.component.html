@@ -1,0 +1,18 @@
+<div id="header" style="height: 60px; width: 100%;background-color: grey;"></div>
+<section id="content-container students">
+	<div class="student-info">
+		<h2 class="inline-block mr-10">{{student.name}}</h2>
+		<h3 class="inline-block">{{student.dateOfBirth | calculateAge }} años</h3>
+		<h3>Materias:</h3>
+		<div>
+			<button class="btn btn-info-outline" *ngFor="let subject of student.subjects;">{{subject}}</button>
+		</div>
+	</div>
+	<div class="student-dashboard grid justify-content-center">
+		<div class="zoominleft animation-duration-1000 min-w-min col-12 md:col-6 xl:col-3">
+			<marks [marks]="student.marks"></marks>
+		</div>
+		
+	</div>
+		
+</section>
