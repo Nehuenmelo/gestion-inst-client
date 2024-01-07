@@ -7,9 +7,16 @@
 		{
 			"payDate": "2023-10-08",
 			"monthPayed": "2023-10-01",
-			"amount": 100,
+			"amount": 4000,
 			"type": "cuota",
-			"comment": ""
+			"comment": "pago con mercado pago"
+		},
+		{
+			"payDate": "2023-11-08",
+			"monthPayed": "2023-11-01",
+			"amount": 4500,
+			"type": "cuota",
+			"comment": "pago con mercado pago"
 		}
 	],
 	"marks": [

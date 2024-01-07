@@ -1,16 +1,15 @@
 <div id="marks">
 	<h2 class="flex justify-content-center">Notas</h2>
 	<clr-datagrid>
-		<clr-dg-column>Materia</clr-dg-column>
-		<clr-dg-column>Nota</clr-dg-column>
-		<clr-dg-column>Fecha</clr-dg-column>
+		<clr-dg-column class="yellow-title-bg">Materia</clr-dg-column>
+		<clr-dg-column class="yellow-title-bg">Nota</clr-dg-column>
+		<clr-dg-column class="yellow-title-bg">Fecha</clr-dg-column>
 	
 		<clr-dg-row *ngFor="let mark of marks">
-			<clr-dg-cell>{{ mark.subject }}</clr-dg-cell>
-			<clr-dg-cell>{{ mark.score }}</clr-dg-cell>
-			<clr-dg-cell>{{ mark.date | dateFormat }}</clr-dg-cell>
+			<clr-dg-cell class="yellow-item-bg">{{ mark.subject }}</clr-dg-cell>
+			<clr-dg-cell class="yellow-item-bg">{{ mark.score }}</clr-dg-cell>
+			<clr-dg-cell class="yellow-item-bg">{{ mark.date | dateFormat }}</clr-dg-cell>
 		</clr-dg-row>
-	
-		<clr-dg-footer>{{ marks.length }} notas</clr-dg-footer>
+
 	</clr-datagrid>
 </div>

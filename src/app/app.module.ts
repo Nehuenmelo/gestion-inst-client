@@ -11,6 +11,7 @@ import { NavbarComponent } from './core/components/navbar/navbar.component';
 import { CalculateAgePipe } from './core/pipes/calculateAgePipe';
 import { MarksComponent } from './components/student/marks/marks.component';
 import { DateFormatPipe } from './core/pipes/dateFormatPipe';
+import { PaymentsComponent } from './components/student/payments/payments.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DateFormatPipe } from './core/pipes/dateFormatPipe';
     NavbarComponent,
 		CalculateAgePipe,
 		DateFormatPipe,
-  	MarksComponent
+  	MarksComponent,
+    PaymentsComponent
   ],
   imports: [
     BrowserModule,

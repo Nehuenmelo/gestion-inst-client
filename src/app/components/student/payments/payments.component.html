@@ -1,0 +1,20 @@
+<div id="payments">
+	<h2 class="flex justify-content-center">Pagos</h2>
+	<clr-datagrid>
+		<clr-dg-column class="green-title-bg">Descripción</clr-dg-column>
+		<clr-dg-column class="green-title-bg">Monto</clr-dg-column>
+		<clr-dg-column class="green-title-bg">Fecha de pago</clr-dg-column>
+		<clr-dg-column class="green-title-bg">Mes pagado</clr-dg-column>
+		<clr-dg-column class="green-title-bg">Comentario</clr-dg-column>
+	
+		<clr-dg-row *ngFor="let payment of payments">
+			<clr-dg-cell class="green-item-bg">{{ payment.type }}</clr-dg-cell>
+			<clr-dg-cell class="green-item-bg">{{ payment.amount }}</clr-dg-cell>
+			<clr-dg-cell class="green-item-bg">{{ payment.payDate | dateFormat }}</clr-dg-cell>
+			<clr-dg-cell class="green-item-bg">{{ payment.monthPayed | dateFormat }}</clr-dg-cell>
+			<clr-dg-cell class="green-item-bg">{{ payment.comment }}</clr-dg-cell>
+		</clr-dg-row>
+	
+		<clr-dg-footer class="green-title-bg">{{ payments.length }} pagos</clr-dg-footer>
+	</clr-datagrid>
+</div>
