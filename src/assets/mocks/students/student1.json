@@ -31,14 +31,14 @@
 			"date": "2023-01-10"
 		}
 	],
-	"attendance": [
+	"asists": [
 		{
-			"date": "2023-01-01",
+			"date": "2024-01-01 02:00:00",
 			"attended": true
 		},
 		{
-			"date": "2023-01-02",
-			"attended": true
+			"date": "2024-01-08 02:00:00",
+			"attended": false
 		}
 	],
 	"events": [

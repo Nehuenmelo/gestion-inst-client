@@ -30,8 +30,9 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/angular-calendar/css/angular-calendar.css",
               "src/styles.scss",
-							"node_modules/@clr/ui/clr-ui.min.css"
+              "node_modules/@clr/ui/clr-ui.min.css"
             ],
             "scripts": []
           },
@@ -94,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/angular-calendar/css/angular-calendar.css",
               "src/styles.scss"
             ],
             "scripts": []

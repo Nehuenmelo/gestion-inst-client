@@ -10,6 +10,6 @@ export interface Student {
   subjects: string[],
   payments: Payment[],
   marks: Mark[],
-  attendance: Asist[],
+  asists: Asist[],
   events: Occasion[]
 }
